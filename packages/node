@@ -1,0 +1,5 @@
+cd
+curl "https://nodejs.org/dist/v18.17.1/node-v18.17.1-darwin-x64.tar.gz" -O
+tar -xf node-v18.17.1-darwin-x64.tar.gz
+echo 'export PATH="${HOME}/node-v18.17.1-darwin-x64/bin:${PATH}"' | cat - .zshrc > temp.txt && mv temp.txt .zshrc
+echo "please restart your terminal for the effects to take place"
